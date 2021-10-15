@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2021-10-15 05:38:04
+Date: 2021-10-15 14:20:42
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `logs` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=867 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=908 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of logs
@@ -896,6 +896,47 @@ INSERT INTO `logs` VALUES ('863', '1', 'Exportou os Logs de Acesso', '2021-10-15
 INSERT INTO `logs` VALUES ('864', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 05:32:03', '2021-10-15 05:32:03');
 INSERT INTO `logs` VALUES ('865', '1', 'Visualizou os imóveis do sistema', '2021-10-15 05:33:26', '2021-10-15 05:33:26');
 INSERT INTO `logs` VALUES ('866', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 05:33:34', '2021-10-15 05:33:34');
+INSERT INTO `logs` VALUES ('867', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:18:32', '2021-10-15 12:18:32');
+INSERT INTO `logs` VALUES ('868', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:23:46', '2021-10-15 12:23:46');
+INSERT INTO `logs` VALUES ('869', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:24:22', '2021-10-15 12:24:22');
+INSERT INTO `logs` VALUES ('870', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:26:06', '2021-10-15 12:26:06');
+INSERT INTO `logs` VALUES ('871', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:30:10', '2021-10-15 12:30:10');
+INSERT INTO `logs` VALUES ('872', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:35:41', '2021-10-15 12:35:41');
+INSERT INTO `logs` VALUES ('873', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:37:13', '2021-10-15 12:37:13');
+INSERT INTO `logs` VALUES ('874', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:38:18', '2021-10-15 12:38:18');
+INSERT INTO `logs` VALUES ('875', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:39:27', '2021-10-15 12:39:27');
+INSERT INTO `logs` VALUES ('876', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:40:45', '2021-10-15 12:40:45');
+INSERT INTO `logs` VALUES ('877', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:42:49', '2021-10-15 12:42:49');
+INSERT INTO `logs` VALUES ('878', '0', 'Visualizou os imóveis do sistema', '2021-10-15 12:43:08', '2021-10-15 12:43:08');
+INSERT INTO `logs` VALUES ('879', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:44:17', '2021-10-15 12:44:17');
+INSERT INTO `logs` VALUES ('880', '0', 'Visualizou os imóveis do sistema', '2021-10-15 12:45:49', '2021-10-15 12:45:49');
+INSERT INTO `logs` VALUES ('881', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:46:20', '2021-10-15 12:46:20');
+INSERT INTO `logs` VALUES ('882', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:49:17', '2021-10-15 12:49:17');
+INSERT INTO `logs` VALUES ('883', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:50:38', '2021-10-15 12:50:38');
+INSERT INTO `logs` VALUES ('884', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:52:08', '2021-10-15 12:52:08');
+INSERT INTO `logs` VALUES ('885', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:53:09', '2021-10-15 12:53:09');
+INSERT INTO `logs` VALUES ('886', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:53:09', '2021-10-15 12:53:09');
+INSERT INTO `logs` VALUES ('887', '1', 'Visualizou os imóveis do sistema', '2021-10-15 12:58:22', '2021-10-15 12:58:22');
+INSERT INTO `logs` VALUES ('888', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:02:05', '2021-10-15 13:02:05');
+INSERT INTO `logs` VALUES ('889', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:08:29', '2021-10-15 13:08:29');
+INSERT INTO `logs` VALUES ('890', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:13:25', '2021-10-15 13:13:25');
+INSERT INTO `logs` VALUES ('891', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:15:15', '2021-10-15 13:15:15');
+INSERT INTO `logs` VALUES ('892', '1', 'Visualizou o imoveis 12', '2021-10-15 13:16:16', '2021-10-15 13:16:16');
+INSERT INTO `logs` VALUES ('893', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:18:38', '2021-10-15 13:18:38');
+INSERT INTO `logs` VALUES ('894', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:22:35', '2021-10-15 13:22:35');
+INSERT INTO `logs` VALUES ('895', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:26:14', '2021-10-15 13:26:14');
+INSERT INTO `logs` VALUES ('896', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:26:15', '2021-10-15 13:26:15');
+INSERT INTO `logs` VALUES ('897', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:30:20', '2021-10-15 13:30:20');
+INSERT INTO `logs` VALUES ('898', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:32:01', '2021-10-15 13:32:01');
+INSERT INTO `logs` VALUES ('899', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:37:18', '2021-10-15 13:37:18');
+INSERT INTO `logs` VALUES ('900', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:44:14', '2021-10-15 13:44:14');
+INSERT INTO `logs` VALUES ('901', '0', 'Visualizou a tela inicial do sistema', '2021-10-15 13:45:49', '2021-10-15 13:45:49');
+INSERT INTO `logs` VALUES ('902', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:52:19', '2021-10-15 13:52:19');
+INSERT INTO `logs` VALUES ('903', '1', 'Visualizou os imóveis do sistema', '2021-10-15 13:58:21', '2021-10-15 13:58:21');
+INSERT INTO `logs` VALUES ('904', '1', 'Visualizou os imóveis do sistema', '2021-10-15 14:02:42', '2021-10-15 14:02:42');
+INSERT INTO `logs` VALUES ('905', '1', 'Visualizou os imóveis do sistema', '2021-10-15 14:04:24', '2021-10-15 14:04:24');
+INSERT INTO `logs` VALUES ('906', '1', 'Visualizou os imóveis do sistema', '2021-10-15 14:04:44', '2021-10-15 14:04:44');
+INSERT INTO `logs` VALUES ('907', '1', 'Visualizou os imóveis do sistema', '2021-10-15 14:06:32', '2021-10-15 14:06:32');
 
 -- ----------------------------
 -- Table structure for `modules`
