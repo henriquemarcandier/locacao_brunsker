@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2021-10-15 01:44:42
+Date: 2021-10-15 05:38:04
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `logs` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=778 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=867 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of logs
@@ -807,6 +807,95 @@ INSERT INTO `logs` VALUES ('774', '1', 'Visualizou a tela inicial do sistema', '
 INSERT INTO `logs` VALUES ('775', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 01:18:55', '2021-10-15 01:18:55');
 INSERT INTO `logs` VALUES ('776', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 01:20:59', '2021-10-15 01:20:59');
 INSERT INTO `logs` VALUES ('777', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 01:40:26', '2021-10-15 01:40:26');
+INSERT INTO `logs` VALUES ('778', '1', 'Efetuou logout no sistema!', '2021-10-15 01:48:09', '2021-10-15 01:48:09');
+INSERT INTO `logs` VALUES ('779', '2', 'Se logou no sistema', '2021-10-15 01:59:09', '2021-10-15 01:59:09');
+INSERT INTO `logs` VALUES ('780', '2', 'Visualizou a tela inicial do sistema', '2021-10-15 01:59:10', '2021-10-15 01:59:10');
+INSERT INTO `logs` VALUES ('781', '2', 'Efetuou logout no sistema!', '2021-10-15 01:59:19', '2021-10-15 01:59:19');
+INSERT INTO `logs` VALUES ('782', '2', 'Se logou no sistema', '2021-10-15 01:59:34', '2021-10-15 01:59:34');
+INSERT INTO `logs` VALUES ('783', '2', 'Visualizou a tela inicial do sistema', '2021-10-15 01:59:34', '2021-10-15 01:59:34');
+INSERT INTO `logs` VALUES ('784', '2', 'Visualizou a tela inicial do sistema', '2021-10-15 02:11:19', '2021-10-15 02:11:19');
+INSERT INTO `logs` VALUES ('785', '2', 'Visualizou os imóveis do sistema', '2021-10-15 02:11:31', '2021-10-15 02:11:31');
+INSERT INTO `logs` VALUES ('786', '2', 'Visualizou os ítens excluídos do site', '2021-10-15 02:12:01', '2021-10-15 02:12:01');
+INSERT INTO `logs` VALUES ('787', '2', 'Visualizou as versões do administrativo', '2021-10-15 02:12:18', '2021-10-15 02:12:18');
+INSERT INTO `logs` VALUES ('788', '2', 'Visualizou os parâmetros do administrativo', '2021-10-15 02:12:24', '2021-10-15 02:12:24');
+INSERT INTO `logs` VALUES ('789', '2', 'Visualizou os tipos de módulo do sistema', '2021-10-15 02:12:39', '2021-10-15 02:12:39');
+INSERT INTO `logs` VALUES ('790', '2', 'Visualizou os módulos do sistema', '2021-10-15 02:12:46', '2021-10-15 02:12:46');
+INSERT INTO `logs` VALUES ('791', '2', 'Visualizou os usuários do sistema', '2021-10-15 02:12:51', '2021-10-15 02:12:51');
+INSERT INTO `logs` VALUES ('792', '2', 'Visualizou as permissões do sistema', '2021-10-15 02:12:58', '2021-10-15 02:12:58');
+INSERT INTO `logs` VALUES ('793', '2', 'Visualizou as permiss?es do usu?rio  1', '2021-10-15 02:13:03', '2021-10-15 02:13:03');
+INSERT INTO `logs` VALUES ('794', '2', 'Visualizou as permiss?es do usu?rio  1', '2021-10-15 02:13:04', '2021-10-15 02:13:04');
+INSERT INTO `logs` VALUES ('795', '2', 'Visualizou as permiss?es do usu?rio  1', '2021-10-15 02:13:06', '2021-10-15 02:13:06');
+INSERT INTO `logs` VALUES ('796', '2', 'Visualizou as permiss?es do usu?rio  1', '2021-10-15 02:13:07', '2021-10-15 02:13:07');
+INSERT INTO `logs` VALUES ('797', '2', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:13:10', '2021-10-15 02:13:10');
+INSERT INTO `logs` VALUES ('798', '2', 'Visualizou as permissões do sistema', '2021-10-15 02:13:42', '2021-10-15 02:13:42');
+INSERT INTO `logs` VALUES ('799', '2', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:13:51', '2021-10-15 02:13:51');
+INSERT INTO `logs` VALUES ('800', '2', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:13:53', '2021-10-15 02:13:53');
+INSERT INTO `logs` VALUES ('801', '2', 'Visualizou as permiss?es do usu?rio  1', '2021-10-15 02:13:54', '2021-10-15 02:13:54');
+INSERT INTO `logs` VALUES ('802', '2', 'Visualizou as permissões do sistema', '2021-10-15 02:16:22', '2021-10-15 02:16:22');
+INSERT INTO `logs` VALUES ('803', '2', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:16:28', '2021-10-15 02:16:28');
+INSERT INTO `logs` VALUES ('804', '2', 'Efetuou logout no sistema!', '2021-10-15 02:16:37', '2021-10-15 02:16:37');
+INSERT INTO `logs` VALUES ('805', '1', 'Se logou no sistema', '2021-10-15 02:16:42', '2021-10-15 02:16:42');
+INSERT INTO `logs` VALUES ('806', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:16:43', '2021-10-15 02:16:43');
+INSERT INTO `logs` VALUES ('807', '1', 'Visualizou as permissões do sistema', '2021-10-15 02:16:56', '2021-10-15 02:16:56');
+INSERT INTO `logs` VALUES ('808', '1', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:17:00', '2021-10-15 02:17:00');
+INSERT INTO `logs` VALUES ('809', '1', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:17:08', '2021-10-15 02:17:08');
+INSERT INTO `logs` VALUES ('810', '1', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:17:10', '2021-10-15 02:17:10');
+INSERT INTO `logs` VALUES ('811', '1', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:17:11', '2021-10-15 02:17:11');
+INSERT INTO `logs` VALUES ('812', '1', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:17:14', '2021-10-15 02:17:14');
+INSERT INTO `logs` VALUES ('813', '1', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:18:28', '2021-10-15 02:18:28');
+INSERT INTO `logs` VALUES ('814', '1', 'Visualizou as permissões do sistema', '2021-10-15 02:19:06', '2021-10-15 02:19:06');
+INSERT INTO `logs` VALUES ('815', '1', 'Visualizou as permiss?es do usu?rio  2', '2021-10-15 02:19:10', '2021-10-15 02:19:10');
+INSERT INTO `logs` VALUES ('816', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:19:54', '2021-10-15 02:19:54');
+INSERT INTO `logs` VALUES ('817', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:20:23', '2021-10-15 02:20:23');
+INSERT INTO `logs` VALUES ('818', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:21:22', '2021-10-15 02:21:22');
+INSERT INTO `logs` VALUES ('819', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:21:56', '2021-10-15 02:21:56');
+INSERT INTO `logs` VALUES ('820', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:22:29', '2021-10-15 02:22:29');
+INSERT INTO `logs` VALUES ('821', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:23:51', '2021-10-15 02:23:51');
+INSERT INTO `logs` VALUES ('822', '0', 'Visualizou a tela inicial do sistema', '2021-10-15 02:24:19', '2021-10-15 02:24:19');
+INSERT INTO `logs` VALUES ('823', '1', 'Se logou no sistema', '2021-10-15 02:24:34', '2021-10-15 02:24:34');
+INSERT INTO `logs` VALUES ('824', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:24:34', '2021-10-15 02:24:34');
+INSERT INTO `logs` VALUES ('825', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:30:07', '2021-10-15 02:30:07');
+INSERT INTO `logs` VALUES ('826', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:33:04', '2021-10-15 02:33:04');
+INSERT INTO `logs` VALUES ('827', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:37:01', '2021-10-15 02:37:01');
+INSERT INTO `logs` VALUES ('828', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:38:47', '2021-10-15 02:38:47');
+INSERT INTO `logs` VALUES ('829', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:41:59', '2021-10-15 02:41:59');
+INSERT INTO `logs` VALUES ('830', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:43:35', '2021-10-15 02:43:35');
+INSERT INTO `logs` VALUES ('831', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:44:32', '2021-10-15 02:44:32');
+INSERT INTO `logs` VALUES ('832', '1', 'Visualizou os imóveis do sistema', '2021-10-15 02:45:02', '2021-10-15 02:45:02');
+INSERT INTO `logs` VALUES ('833', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:45:44', '2021-10-15 02:45:44');
+INSERT INTO `logs` VALUES ('834', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:46:04', '2021-10-15 02:46:04');
+INSERT INTO `logs` VALUES ('835', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:46:50', '2021-10-15 02:46:50');
+INSERT INTO `logs` VALUES ('836', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:47:16', '2021-10-15 02:47:16');
+INSERT INTO `logs` VALUES ('837', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:47:29', '2021-10-15 02:47:29');
+INSERT INTO `logs` VALUES ('838', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:48:20', '2021-10-15 02:48:20');
+INSERT INTO `logs` VALUES ('839', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:48:57', '2021-10-15 02:48:57');
+INSERT INTO `logs` VALUES ('840', '0', 'Visualizou a tela inicial do sistema', '2021-10-15 02:50:15', '2021-10-15 02:50:15');
+INSERT INTO `logs` VALUES ('841', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:51:51', '2021-10-15 02:51:51');
+INSERT INTO `logs` VALUES ('842', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:52:25', '2021-10-15 02:52:25');
+INSERT INTO `logs` VALUES ('843', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:52:26', '2021-10-15 02:52:26');
+INSERT INTO `logs` VALUES ('844', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 02:53:50', '2021-10-15 02:53:50');
+INSERT INTO `logs` VALUES ('845', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 03:05:27', '2021-10-15 03:05:27');
+INSERT INTO `logs` VALUES ('846', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 03:06:14', '2021-10-15 03:06:14');
+INSERT INTO `logs` VALUES ('847', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 03:09:16', '2021-10-15 03:09:16');
+INSERT INTO `logs` VALUES ('848', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 03:10:51', '2021-10-15 03:10:51');
+INSERT INTO `logs` VALUES ('849', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 03:12:47', '2021-10-15 03:12:47');
+INSERT INTO `logs` VALUES ('850', '1', 'Visualizou os imóveis do sistema', '2021-10-15 03:13:08', '2021-10-15 03:13:08');
+INSERT INTO `logs` VALUES ('851', '1', 'Atualizou a imoveis 4', '2021-10-15 03:13:25', '2021-10-15 03:13:25');
+INSERT INTO `logs` VALUES ('852', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 03:14:06', '2021-10-15 03:14:06');
+INSERT INTO `logs` VALUES ('853', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 03:14:47', '2021-10-15 03:14:47');
+INSERT INTO `logs` VALUES ('854', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 03:16:01', '2021-10-15 03:16:01');
+INSERT INTO `logs` VALUES ('855', '0', 'Visualizou a tela inicial do sistema', '2021-10-15 05:14:54', '2021-10-15 05:14:54');
+INSERT INTO `logs` VALUES ('856', '1', 'Se logou no sistema', '2021-10-15 05:14:59', '2021-10-15 05:14:59');
+INSERT INTO `logs` VALUES ('857', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 05:14:59', '2021-10-15 05:14:59');
+INSERT INTO `logs` VALUES ('858', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 05:17:48', '2021-10-15 05:17:48');
+INSERT INTO `logs` VALUES ('859', '1', 'Visualizou os tipos de módulo do sistema', '2021-10-15 05:18:02', '2021-10-15 05:18:02');
+INSERT INTO `logs` VALUES ('860', '1', 'Visualizou as versões do administrativo', '2021-10-15 05:18:05', '2021-10-15 05:18:05');
+INSERT INTO `logs` VALUES ('861', '1', 'Visualizou os imóveis do sistema', '2021-10-15 05:18:08', '2021-10-15 05:18:08');
+INSERT INTO `logs` VALUES ('862', '1', 'Atualizou a imoveis 12', '2021-10-15 05:26:47', '2021-10-15 05:26:47');
+INSERT INTO `logs` VALUES ('863', '1', 'Exportou os Logs de Acesso', '2021-10-15 05:26:53', '2021-10-15 05:26:53');
+INSERT INTO `logs` VALUES ('864', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 05:32:03', '2021-10-15 05:32:03');
+INSERT INTO `logs` VALUES ('865', '1', 'Visualizou os imóveis do sistema', '2021-10-15 05:33:26', '2021-10-15 05:33:26');
+INSERT INTO `logs` VALUES ('866', '1', 'Visualizou a tela inicial do sistema', '2021-10-15 05:33:34', '2021-10-15 05:33:34');
 
 -- ----------------------------
 -- Table structure for `modules`
@@ -947,7 +1036,7 @@ CREATE TABLE `properties` (
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of properties
@@ -963,6 +1052,7 @@ INSERT INTO `properties` VALUES ('8', 'Teste 7', 'Testasso 7', '1100.00', '8', '
 INSERT INTO `properties` VALUES ('9', 'Teste 8', 'Testasso 8', '1500.00', '9', '8', '7', '5', '3000.00', '1', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 INSERT INTO `properties` VALUES ('10', 'Teste 9', 'Testasso 9', '1500.00', '9', '8', '7', '5', '3000.00', '1', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 INSERT INTO `properties` VALUES ('11', 'Teste 10', 'Testasso 10', '1500.00', '9', '8', '7', '5', '3000.00', '1', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
+INSERT INTO `properties` VALUES ('12', 'Teste 11', 'Teste 11', '1500.00', '9', '8', '7', '5', '3000.00', '1', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 
 -- ----------------------------
 -- Table structure for `properties_addresses`
@@ -982,7 +1072,7 @@ CREATE TABLE `properties_addresses` (
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of properties_addresses
@@ -998,6 +1088,7 @@ INSERT INTO `properties_addresses` VALUES ('8', '8', '30421-108', 'Rua Geraldo B
 INSERT INTO `properties_addresses` VALUES ('9', '9', '30421-108', 'Rua Geraldo Bicalho', '66', 'ap 101', 'Nova Suíssa', 'Belo Horizonte', 'MG', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 INSERT INTO `properties_addresses` VALUES ('10', '10', '30421-108', 'Rua Geraldo Bicalho', '66', 'ap 101', 'Nova Suíssa', 'Belo Horizonte', 'MG', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 INSERT INTO `properties_addresses` VALUES ('11', '11', '30421-108', 'Rua Geraldo Bicalho', '66', 'ap 101', 'Nova Suíssa', 'Belo Horizonte', 'MG', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
+INSERT INTO `properties_addresses` VALUES ('12', '12', '30421-108', 'Rua Geraldo Bicalho', '66', 'ap 101', 'Nova Suíssa', 'Belo Horizonte', 'MG', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 
 -- ----------------------------
 -- Table structure for `properties_photos`
@@ -1012,7 +1103,7 @@ CREATE TABLE `properties_photos` (
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of properties_photos
@@ -1029,9 +1120,10 @@ INSERT INTO `properties_photos` VALUES ('9', '5', 'imovel5_9.webp', 'Foto Casa 1
 INSERT INTO `properties_photos` VALUES ('10', '6', 'imovel6_10.webp', 'Foto Casa 1', '2021-10-14 14:59:39', '2021-10-14 14:59:39', null);
 INSERT INTO `properties_photos` VALUES ('11', '7', 'imovel7_11.webp', 'Foto Casa 1', '2021-10-14 15:02:08', '2021-10-14 15:02:08', null);
 INSERT INTO `properties_photos` VALUES ('12', '8', 'imovel8_12.jpg', 'Foto Casa 1', '2021-10-14 17:34:07', '2021-10-14 17:34:07', null);
-INSERT INTO `properties_photos` VALUES ('13', '9', 'imovel9_13.webp', 'Foto da Casa 1', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
+INSERT INTO `properties_photos` VALUES ('13', '9', 'imovel9_13.jpg', 'Foto Casa 1|(|', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 INSERT INTO `properties_photos` VALUES ('14', '10', 'imovel10_14.webp', 'Foto Casa 1', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 INSERT INTO `properties_photos` VALUES ('15', '11', 'imovel11_15.jpg', 'Foto da Casa 1', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
+INSERT INTO `properties_photos` VALUES ('16', '12', 'imovel12_16.webp', 'Foto da Casa 1', '2021-10-14 17:36:09', '2021-10-14 17:36:09', null);
 
 -- ----------------------------
 -- Table structure for `states`
